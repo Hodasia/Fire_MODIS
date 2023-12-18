@@ -1,0 +1,23 @@
+2023/11/01 14:16:08 failed to dial tcp connection, retrying
+[2023-11-01T14:16:09.322Z] info  code-server 4.11.0 85e083580dec27ef19827ff42d3c9257d56ea7e3
+[2023-11-01T14:16:09.324Z] info  Using user-data-dir ~/.local/share/code-server
+[2023-11-01T14:16:09.338Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-11-01T14:16:09.338Z] info  HTTP server listening on http://127.0.0.1:8080/
+[2023-11-01T14:16:09.338Z] info    - Authentication is disabled
+[2023-11-01T14:16:09.338Z] info    - Not serving HTTPS
+====================================>token: 20726502-779b-473c-979d-2f8870caf70b
+[14:16:10] 
+
+
+
+
+[14:16:10] Extension host agent started.
+[14:16:12] [127.0.0.1][51224ee8][ManagementConnection] New connection established.
+[14:16:13] [127.0.0.1][134d8df1][ExtensionHostConnection] New connection established.
+[14:16:13] [127.0.0.1][134d8df1][ExtensionHostConnection] <381> Launched Extension Host Process.
+[14:16:16] Using the in-memory credential store as the operating system's credential store could not be accessed. Please see https://aka.ms/vscode-server-keyring on how to set this up. Details: libsecret-1.so.0: cannot open shared object file: No such file or directory
+[14:16:16] [File Watcher (node.js)] Failed to watch /root/.conda for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/root/.conda')
+[14:16:16] [File Watcher (node.js)] Failed to watch /workplace/project/fire for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/workplace/project/fire')
+[14:16:27] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /opt/conda/lib/python3.8)
+[2023-11-01T14:18:24.311Z] error Failed to get latest version [38;2;140;140;140m{"error":"connect ETIMEDOUT 20.205.243.168:443"}[0m
+2023/11/01 17:13:40 exit program after timeout

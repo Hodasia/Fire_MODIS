@@ -1,0 +1,30 @@
+2023/11/02 04:01:30 failed to dial tcp connection, retrying
+2023/11/02 04:01:31 failed to dial tcp connection, retrying
+[2023-11-02T04:01:31.180Z] info  code-server 4.11.0 85e083580dec27ef19827ff42d3c9257d56ea7e3
+[2023-11-02T04:01:31.181Z] info  Using user-data-dir ~/.local/share/code-server
+[2023-11-02T04:01:31.194Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-11-02T04:01:31.194Z] info  HTTP server listening on http://127.0.0.1:8080/
+[2023-11-02T04:01:31.194Z] info    - Authentication is disabled
+[2023-11-02T04:01:31.194Z] info    - Not serving HTTPS
+====================================>token: 3ee4354d-38c0-4161-8a91-abffaf6c82f3
+[04:01:33] 
+
+
+
+
+[04:01:33] Extension host agent started.
+[04:01:35] [127.0.0.1][d9a9395b][ManagementConnection] New connection established.
+[04:01:35] [127.0.0.1][6a4a2d4d][ExtensionHostConnection] New connection established.
+[04:01:35] [127.0.0.1][6a4a2d4d][ExtensionHostConnection] <379> Launched Extension Host Process.
+[04:01:39] Using the in-memory credential store as the operating system's credential store could not be accessed. Please see https://aka.ms/vscode-server-keyring on how to set this up. Details: libsecret-1.so.0: cannot open shared object file: No such file or directory
+[04:01:50] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /opt/conda/lib/python3.8)
+[2023-11-02T04:03:44.955Z] error Failed to get latest version [38;2;140;140;140m{"error":"connect ETIMEDOUT 20.205.243.168:443"}[0m
+[04:08:17] [127.0.0.1][6a4a2d4d][ExtensionHostConnection] <379> Extension Host Process exited with code: 0, signal: null.
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0x1 addr=0x28 pc=0x8986f1]
+
+goroutine 372 [running]:
+http_reverse_proxy/client.sendHttpRequestAndReplyHttpResponse(0xc00082efd0?, 0x7b30ae?, 0xc00071a040, 0xc0000de7e0)
+	/builds/hitminer/http_reverse_proxy/client/http_client.go:51 +0xb1
+created by http_reverse_proxy/client.startHttpClient
+	/builds/hitminer/http_reverse_proxy/client/http_client.go:34 +0x1ea

@@ -1,0 +1,40 @@
+2023/11/02 08:49:59 failed to dial tcp connection, retrying
+2023/11/02 08:50:00 failed to dial tcp connection, retrying
+[2023-11-02T08:50:00.410Z] info  code-server 4.11.0 85e083580dec27ef19827ff42d3c9257d56ea7e3
+[2023-11-02T08:50:00.411Z] info  Using user-data-dir ~/.local/share/code-server
+[2023-11-02T08:50:00.424Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-11-02T08:50:00.424Z] info  HTTP server listening on http://127.0.0.1:8080/
+[2023-11-02T08:50:00.424Z] info    - Authentication is disabled
+[2023-11-02T08:50:00.424Z] info    - Not serving HTTPS
+====================================>token: 02090f5e-269d-4768-9b4e-599c6e7903bc
+[08:50:03] 
+
+
+
+
+[08:50:03] Extension host agent started.
+[08:50:05] [127.0.0.1][cf82e3af][ManagementConnection] New connection established.
+[08:50:05] Using the in-memory credential store as the operating system's credential store could not be accessed. Please see https://aka.ms/vscode-server-keyring on how to set this up. Details: libsecret-1.so.0: cannot open shared object file: No such file or directory
+[08:50:05] [127.0.0.1][f3ddfecb][ExtensionHostConnection] New connection established.
+[08:50:05] [127.0.0.1][f3ddfecb][ExtensionHostConnection] <378> Launched Extension Host Process.
+[08:50:15] Getting Manifest... formulahendry.code-runner
+[2023-11-02T08:52:16.698Z] error Failed to get latest version [38;2;140;140;140m{"error":"connect ETIMEDOUT 20.205.243.168:443"}[0m
+[08:53:04] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /opt/conda/lib/python3.8)
+[08:54:38] Failed to install extension. formulahendry.code-runner
+[08:54:38] Error: connect ETIMEDOUT 198.41.30.195:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1278:16) {
+  errno: -110,
+  code: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '198.41.30.195',
+  port: 443
+}
+[09:03:02] [127.0.0.1][f3ddfecb][ExtensionHostConnection] <378> Extension Host Process exited with code: 0, signal: null.
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0x1 addr=0x28 pc=0x8986f1]
+
+goroutine 105 [running]:
+http_reverse_proxy/client.sendHttpRequestAndReplyHttpResponse(0xc000122060?, 0x0?, 0xc000288020, 0xc0000de7e0)
+	/builds/hitminer/http_reverse_proxy/client/http_client.go:51 +0xb1
+created by http_reverse_proxy/client.startHttpClient
+	/builds/hitminer/http_reverse_proxy/client/http_client.go:34 +0x1ea

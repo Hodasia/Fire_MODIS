@@ -1,0 +1,57 @@
+2023/11/01 12:21:05 failed to dial tcp connection, retrying
+2023/11/01 12:21:06 failed to dial tcp connection, retrying
+[2023-11-01T12:21:06.362Z] info  code-server 4.11.0 85e083580dec27ef19827ff42d3c9257d56ea7e3
+[2023-11-01T12:21:06.363Z] info  Using user-data-dir ~/.local/share/code-server
+[2023-11-01T12:21:06.376Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-11-01T12:21:06.377Z] info  HTTP server listening on http://127.0.0.1:8080/
+[2023-11-01T12:21:06.377Z] info    - Authentication is disabled
+[2023-11-01T12:21:06.377Z] info    - Not serving HTTPS
+====================================>token: 39faef5c-16fd-4a23-8f8f-daaf19363f33
+[12:21:08] 
+
+
+
+
+[12:21:08] Extension host agent started.
+[12:21:10] [127.0.0.1][0d9db75c][ManagementConnection] New connection established.
+[12:21:10] Using the in-memory credential store as the operating system's credential store could not be accessed. Please see https://aka.ms/vscode-server-keyring on how to set this up. Details: libsecret-1.so.0: cannot open shared object file: No such file or directory
+[12:21:11] [127.0.0.1][f6685ff5][ExtensionHostConnection] New connection established.
+[12:21:11] [127.0.0.1][f6685ff5][ExtensionHostConnection] <378> Launched Extension Host Process.
+[12:21:17] Getting Manifest... formulahendry.code-runner
+[2023-11-01T12:23:20.502Z] error Failed to get latest version [38;2;140;140;140m{"error":"connect ETIMEDOUT 20.205.243.168:443"}[0m
+[12:23:28] [File Watcher (node.js)] Failed to watch /root/.conda for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/root/.conda')
+[12:23:49] [127.0.0.1][f6685ff5][ExtensionHostConnection] The client has reconnected.
+[12:23:55] [127.0.0.1][f6685ff5][ExtensionHostConnection] The client has reconnected.
+[12:24:01] [127.0.0.1][f6685ff5][ExtensionHostConnection] The client has reconnected.
+[12:24:07] [127.0.0.1][f6685ff5][ExtensionHostConnection] The client has reconnected.
+[12:24:13] [127.0.0.1][f6685ff5][ExtensionHostConnection] The client has reconnected.
+[12:24:19] [127.0.0.1][f6685ff5][ExtensionHostConnection] The client has reconnected.
+[12:24:25] [127.0.0.1][f6685ff5][ExtensionHostConnection] The client has reconnected.
+[12:24:31] [127.0.0.1][f6685ff5][ExtensionHostConnection] The client has reconnected.
+[12:24:37] [127.0.0.1][f6685ff5][ExtensionHostConnection] The client has reconnected.
+[12:24:44] [127.0.0.1][f6685ff5][ExtensionHostConnection] The client has reconnected.
+[12:24:50] [127.0.0.1][f6685ff5][ExtensionHostConnection] The client has reconnected.
+[12:24:56] [127.0.0.1][f6685ff5][ExtensionHostConnection] The client has reconnected.
+[12:25:02] [127.0.0.1][f6685ff5][ExtensionHostConnection] The client has reconnected.
+[12:25:08] [127.0.0.1][f6685ff5][ExtensionHostConnection] The client has reconnected.
+[12:25:14] [127.0.0.1][f6685ff5][ExtensionHostConnection] The client has reconnected.
+[12:25:20] [127.0.0.1][f6685ff5][ExtensionHostConnection] The client has reconnected.
+[12:25:26] [127.0.0.1][f6685ff5][ExtensionHostConnection] The client has reconnected.
+[12:25:32] [127.0.0.1][f6685ff5][ExtensionHostConnection] The client has reconnected.
+[12:25:37] Failed to install extension. formulahendry.code-runner
+[12:25:37] Error: connect ETIMEDOUT 198.41.30.195:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1278:16) {
+  errno: -110,
+  code: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '198.41.30.195',
+  port: 443
+}
+[12:25:38] [127.0.0.1][f6685ff5][ExtensionHostConnection] The client has reconnected.
+[12:25:44] [127.0.0.1][f6685ff5][ExtensionHostConnection] The client has reconnected.
+[12:25:51] [127.0.0.1][f6685ff5][ExtensionHostConnection] The client has reconnected.
+[12:25:57] [127.0.0.1][f6685ff5][ExtensionHostConnection] The client has reconnected.
+[12:26:03] [127.0.0.1][f6685ff5][ExtensionHostConnection] The client has reconnected.
+[12:26:09] [127.0.0.1][f6685ff5][ExtensionHostConnection] The client has reconnected.
+[12:26:21] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /opt/conda/lib/python3.8)
+2023/11/01 13:53:53 exit program after timeout

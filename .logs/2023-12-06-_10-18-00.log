@@ -1,0 +1,31 @@
+2023/12/06 02:19:58 failed to dial tcp connection, retrying
+2023/12/06 02:19:59 failed to dial tcp connection, retrying
+[2023-12-06T02:19:59.080Z] info  code-server 4.11.0 85e083580dec27ef19827ff42d3c9257d56ea7e3
+[2023-12-06T02:19:59.082Z] info  Using user-data-dir ~/.local/share/code-server
+[2023-12-06T02:19:59.096Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-12-06T02:19:59.096Z] info  HTTP server listening on http://127.0.0.1:8080/
+[2023-12-06T02:19:59.096Z] info    - Authentication is disabled
+[2023-12-06T02:19:59.096Z] info    - Not serving HTTPS
+====================================>token: bc90a3df-a873-4d80-8e58-149ef9b81085
+[02:21:47] 
+
+
+
+
+[02:21:47] Extension host agent started.
+[02:21:47] [File Watcher (node.js)] Failed to watch /root/.local/share/code-server/extensions for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/root/.local/share/code-server/extensions')
+[02:21:47] [File Watcher (node.js)] Failed to watch /root/.local/share/code-server/extensions/extensions.json for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/root/.local/share/code-server/extensions/extensions.json')
+[02:21:48] [127.0.0.1][650b1230][ManagementConnection] New connection established.
+[02:21:48] [File Watcher (node.js)] Failed to watch /root/.local/share/code-server/User for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/root/.local/share/code-server/User')
+[02:21:57] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/codeserver/lib/vscode/out/vs/server/node/server.main.js:94:2559)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0x1 addr=0x28 pc=0x8986f1]
+
+goroutine 74 [running]:
+http_reverse_proxy/client.sendHttpRequestAndReplyHttpResponse(0xc0001220a0?, 0x7b30ae?, 0xc000336000, 0xc000124060)
+	/builds/hitminer/http_reverse_proxy/client/http_client.go:51 +0xb1
+created by http_reverse_proxy/client.startHttpClient
+	/builds/hitminer/http_reverse_proxy/client/http_client.go:34 +0x1ea

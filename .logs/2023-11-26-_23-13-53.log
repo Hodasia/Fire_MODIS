@@ -1,0 +1,22 @@
+2023/11/26 15:13:58 failed to dial tcp connection, retrying
+[2023-11-26T15:13:59.483Z] info  code-server 4.11.0 85e083580dec27ef19827ff42d3c9257d56ea7e3
+[2023-11-26T15:13:59.484Z] info  Using user-data-dir ~/.local/share/code-server
+[2023-11-26T15:13:59.497Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-11-26T15:13:59.497Z] info  HTTP server listening on http://127.0.0.1:8080/
+[2023-11-26T15:13:59.497Z] info    - Authentication is disabled
+[2023-11-26T15:13:59.497Z] info    - Not serving HTTPS
+====================================>token: aba20c03-0f2e-4bca-80a0-93f9fe509256
+[15:14:01] 
+
+
+
+
+[15:14:01] Extension host agent started.
+[15:14:03] [127.0.0.1][fa77535c][ManagementConnection] New connection established.
+[15:14:04] [127.0.0.1][9b1a81b6][ExtensionHostConnection] New connection established.
+[15:14:04] [127.0.0.1][9b1a81b6][ExtensionHostConnection] <378> Launched Extension Host Process.
+[15:14:07] Using the in-memory credential store as the operating system's credential store could not be accessed. Please see https://aka.ms/vscode-server-keyring on how to set this up. Details: libsecret-1.so.0: cannot open shared object file: No such file or directory
+[15:15:12] [127.0.0.1][fa77535c][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[15:15:12] [127.0.0.1][9b1a81b6][ExtensionHostConnection] <378> Extension Host Process exited with code: 0, signal: null.
+[2023-11-26T15:16:14.649Z] error Failed to get latest version [38;2;140;140;140m{"error":"connect ETIMEDOUT 20.205.243.168:443"}[0m
+2023/11/26 15:25:13 exit program after timeout

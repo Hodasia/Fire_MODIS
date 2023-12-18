@@ -1,0 +1,40 @@
+2023/11/29 04:36:12 failed to dial tcp connection, retrying
+[2023-11-29T04:36:13.081Z] info  code-server 4.11.0 85e083580dec27ef19827ff42d3c9257d56ea7e3
+[2023-11-29T04:36:13.082Z] info  Using user-data-dir ~/.local/share/code-server
+====================================>token: e59d44e7-a40d-44d0-8893-9d03525e146f
+[2023-11-29T04:36:13.098Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-11-29T04:36:13.099Z] info  HTTP server listening on http://127.0.0.1:8080/
+[2023-11-29T04:36:13.099Z] info    - Authentication is disabled
+[2023-11-29T04:36:13.099Z] info    - Not serving HTTPS
+[04:36:14] 
+
+
+
+
+[04:36:14] Extension host agent started.
+[04:36:16] [127.0.0.1][abc2581f][ManagementConnection] New connection established.
+[04:36:17] [127.0.0.1][bf6c33ca][ExtensionHostConnection] New connection established.
+[04:36:17] [127.0.0.1][bf6c33ca][ExtensionHostConnection] <378> Launched Extension Host Process.
+[04:36:20] Using the in-memory credential store as the operating system's credential store could not be accessed. Please see https://aka.ms/vscode-server-keyring on how to set this up. Details: libsecret-1.so.0: cannot open shared object file: No such file or directory
+[04:36:30] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /opt/conda/lib/python3.8)
+[2023-11-29T04:38:26.745Z] error Failed to get latest version [38;2;140;140;140m{"error":"connect ETIMEDOUT 20.205.243.168:443"}[0m
+[05:24:41] [127.0.0.1][bf6c33ca][ExtensionHostConnection] <378> Starting WebSocket: RAW/api/kernels/ea7f1e08-0011-4404-b0d5-518b177c8690
+
+[05:24:41] [127.0.0.1][bf6c33ca][ExtensionHostConnection] <378> Kernel: starting (ea7f1e08-0011-4404-b0d5-518b177c8690)
+
+[06:06:39] [127.0.0.1][bf6c33ca][ExtensionHostConnection] <378> Starting WebSocket: RAW/api/kernels/5c71fe72-92b7-4fb6-89f4-d69f9ab6d106
+
+[06:06:39] [127.0.0.1][bf6c33ca][ExtensionHostConnection] <378> Kernel: starting (5c71fe72-92b7-4fb6-89f4-d69f9ab6d106)
+
+[08:43:10] [127.0.0.1][bf6c33ca][ExtensionHostConnection] <378> Starting WebSocket: RAW/api/kernels/ae4316d1-5734-4609-8417-d8606ae5ef6d
+
+[08:43:10] [127.0.0.1][bf6c33ca][ExtensionHostConnection] <378> Kernel: starting (ae4316d1-5734-4609-8417-d8606ae5ef6d)
+
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0x1 addr=0x28 pc=0x8986f1]
+
+goroutine 773 [running]:
+http_reverse_proxy/client.sendHttpRequestAndReplyHttpResponse(0xc000509e60?, 0xc000509fd0?, 0xc00034c000, 0xc00011c060)
+	/builds/hitminer/http_reverse_proxy/client/http_client.go:51 +0xb1
+created by http_reverse_proxy/client.startHttpClient
+	/builds/hitminer/http_reverse_proxy/client/http_client.go:34 +0x1ea

@@ -1,0 +1,27 @@
+2023/11/03 04:18:04 failed to dial tcp connection, retrying
+2023/11/03 04:18:05 failed to dial tcp connection, retrying
+[2023-11-03T04:18:05.721Z] info  code-server 4.11.0 85e083580dec27ef19827ff42d3c9257d56ea7e3
+[2023-11-03T04:18:05.722Z] info  Using user-data-dir ~/.local/share/code-server
+[2023-11-03T04:18:05.737Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-11-03T04:18:05.737Z] info  HTTP server listening on http://127.0.0.1:8080/
+[2023-11-03T04:18:05.737Z] info    - Authentication is disabled
+[2023-11-03T04:18:05.737Z] info    - Not serving HTTPS
+====================================>token: 54d134d3-43e0-4d13-86c0-a7096242ae53
+[04:18:08] 
+
+
+
+
+[04:18:08] Extension host agent started.
+[04:18:10] [127.0.0.1][824434fd][ManagementConnection] New connection established.
+[04:18:11] [127.0.0.1][10733569][ExtensionHostConnection] New connection established.
+[04:18:11] [127.0.0.1][10733569][ExtensionHostConnection] <380> Launched Extension Host Process.
+[04:18:11] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /workplace/project/fire)
+[04:18:12] [File Watcher (node.js)] Failed to watch /root/.local/share/code-server/User/snippets for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/root/.local/share/code-server/User/snippets')
+[04:18:14] Using the in-memory credential store as the operating system's credential store could not be accessed. Please see https://aka.ms/vscode-server-keyring on how to set this up. Details: libsecret-1.so.0: cannot open shared object file: No such file or directory
+[04:18:14] [File Watcher (node.js)] Failed to watch /root/.conda for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/root/.conda')
+[04:18:14] [File Watcher (node.js)] Failed to watch /workplace/project/fire for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/workplace/project/fire')
+[2023-11-03T04:20:21.302Z] error Failed to get latest version [38;2;140;140;140m{"error":"connect ETIMEDOUT 20.205.243.168:443"}[0m
+[04:45:39] [127.0.0.1][824434fd][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[04:45:39] [127.0.0.1][10733569][ExtensionHostConnection] <380> Extension Host Process exited with code: 0, signal: null.
+2023/11/03 04:55:41 exit program after timeout

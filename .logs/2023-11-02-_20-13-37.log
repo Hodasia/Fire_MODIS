@@ -1,0 +1,45 @@
+2023/11/02 12:13:43 failed to dial tcp connection, retrying
+[2023-11-02T12:13:44.825Z] info  code-server 4.11.0 85e083580dec27ef19827ff42d3c9257d56ea7e3
+2023/11/02 12:13:44 failed to dial tcp connection, retrying
+[2023-11-02T12:13:44.826Z] info  Using user-data-dir ~/.local/share/code-server
+[2023-11-02T12:13:44.844Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-11-02T12:13:44.844Z] info  HTTP server listening on http://127.0.0.1:8080/
+[2023-11-02T12:13:44.844Z] info    - Authentication is disabled
+[2023-11-02T12:13:44.844Z] info    - Not serving HTTPS
+====================================>token: 8d2131e3-8385-41a3-9fe6-7a9537f04d65
+[12:13:48] 
+
+
+
+
+[12:13:48] Extension host agent started.
+[12:13:48] [File Watcher (node.js)] Failed to watch /root/.local/share/code-server/Machine for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/root/.local/share/code-server/Machine')
+[12:13:48] [File Watcher (node.js)] Failed to watch /root/.local/share/code-server/extensions for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/root/.local/share/code-server/extensions')
+[12:13:48] [File Watcher (node.js)] Failed to watch /root/.local/share/code-server/extensions/extensions.json for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/root/.local/share/code-server/extensions/extensions.json')
+[12:13:49] [127.0.0.1][3be5a419][ManagementConnection] New connection established.
+[12:13:50] [File Watcher (node.js)] Failed to watch /root/.local/share/code-server/User for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/root/.local/share/code-server/User')
+[12:13:50] [File Watcher (node.js)] Failed to watch /root/.local/share/code-server/Machine for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/root/.local/share/code-server/Machine')
+[12:13:50] [127.0.0.1][f93e54c2][ExtensionHostConnection] New connection established.
+[12:13:50] [127.0.0.1][f93e54c2][ExtensionHostConnection] <378> Launched Extension Host Process.
+[12:13:51] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /workplace/project/fire)
+[12:13:53] [File Watcher (node.js)] Failed to watch /root/.local/share/code-server/User/snippets for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/root/.local/share/code-server/User/snippets')
+[12:13:55] Using the in-memory credential store as the operating system's credential store could not be accessed. Please see https://aka.ms/vscode-server-keyring on how to set this up. Details: libsecret-1.so.0: cannot open shared object file: No such file or directory
+[2023-11-02T12:16:01.208Z] error Failed to get latest version [38;2;140;140;140m{"error":"connect ETIMEDOUT 20.205.243.168:443"}[0m
+[12:16:05] [File Watcher (node.js)] Failed to watch /root/.conda for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/root/.conda')
+[12:16:05] [File Watcher (node.js)] Failed to watch /workplace/project/fire for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/workplace/project/fire')
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0x1 addr=0x28 pc=0x8986f1]
+
+goroutine 393 [running]:
+http_reverse_proxy/client.sendHttpRequestAndReplyHttpResponse(0xc0000140d8?, 0x7b30ae?, 0xc000288100, 0xc0000de7e0)
+	/builds/hitminer/http_reverse_proxy/client/http_client.go:51 +0xb1
+created by http_reverse_proxy/client.startHttpClient
+	/builds/hitminer/http_reverse_proxy/client/http_client.go:34 +0x1ea
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0x1 addr=0x28 pc=0x8986f1]
+
+goroutine 305 [running]:
+http_reverse_proxy/client.sendHttpRequestAndReplyHttpResponse(0xc0000aee60?, 0xc0000aefd0?, 0xc0000d0080, 0xc0000de7e0)
+	/builds/hitminer/http_reverse_proxy/client/http_client.go:51 +0xb1
+created by http_reverse_proxy/client.startHttpClient
+	/builds/hitminer/http_reverse_proxy/client/http_client.go:34 +0x1ea

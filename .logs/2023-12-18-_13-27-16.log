@@ -1,0 +1,20 @@
+2023/12/18 05:27:24 failed to dial tcp connection, retrying
+[2023-12-18T05:27:25.441Z] info  code-server 4.11.0 85e083580dec27ef19827ff42d3c9257d56ea7e3
+[2023-12-18T05:27:25.442Z] info  Using user-data-dir ~/.local/share/code-server
+[2023-12-18T05:27:25.456Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-12-18T05:27:25.457Z] info  HTTP server listening on http://127.0.0.1:8080/
+[2023-12-18T05:27:25.457Z] info    - Authentication is disabled
+[2023-12-18T05:27:25.457Z] info    - Not serving HTTPS
+====================================>token: 51ac5a1d-c933-4c0c-88cf-9a05e865ee7d
+[05:36:00] 
+
+
+
+
+[05:36:00] Extension host agent started.
+[05:36:01] [127.0.0.1][28542486][ManagementConnection] New connection established.
+[05:36:02] [127.0.0.1][040f8adf][ExtensionHostConnection] New connection established.
+[05:36:02] [127.0.0.1][040f8adf][ExtensionHostConnection] <376> Launched Extension Host Process.
+[05:36:06] Using the in-memory credential store as the operating system's credential store could not be accessed. Please see https://aka.ms/vscode-server-keyring on how to set this up. Details: libsecret-1.so.0: cannot open shared object file: No such file or directory
+[05:36:18] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /opt/conda/lib/python3.8)
+[06:58:54] [File Watcher (node.js)] Failed to watch /workplace/project/fire/.git for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/workplace/project/fire/.git')

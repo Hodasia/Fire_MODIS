@@ -1,0 +1,10 @@
+2023/12/05 15:36:45 failed to dial tcp connection, retrying
+2023/12/05 15:36:46 failed to dial tcp connection, retrying
+[2023-12-05T15:36:46.612Z] info  code-server 4.11.0 85e083580dec27ef19827ff42d3c9257d56ea7e3
+[2023-12-05T15:36:46.614Z] info  Using user-data-dir ~/.local/share/code-server
+[2023-12-05T15:36:46.627Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-12-05T15:36:46.627Z] info  HTTP server listening on http://127.0.0.1:8080/
+[2023-12-05T15:36:46.627Z] info    - Authentication is disabled
+[2023-12-05T15:36:46.627Z] info    - Not serving HTTPS
+====================================>token: e3cd82de-b769-4543-8b0f-cd3d71898ef9
+2023/12/05 15:46:48 exit program after timeout

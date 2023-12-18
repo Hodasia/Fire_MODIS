@@ -1,0 +1,25 @@
+2023/11/01 02:13:30 failed to dial tcp connection, retrying
+[2023-11-01T02:13:31.637Z] info  code-server 4.11.0 85e083580dec27ef19827ff42d3c9257d56ea7e3
+[2023-11-01T02:13:31.638Z] info  Using user-data-dir ~/.local/share/code-server
+[2023-11-01T02:13:31.651Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-11-01T02:13:31.651Z] info  HTTP server listening on http://127.0.0.1:8080/
+[2023-11-01T02:13:31.651Z] info    - Authentication is disabled
+[2023-11-01T02:13:31.651Z] info    - Not serving HTTPS
+====================================>token: 27d704aa-e7b9-48b2-8dd8-fcd424deebf5
+[02:13:33] 
+
+
+
+
+[02:13:33] Extension host agent started.
+[02:13:34] [127.0.0.1][769dbe7e][ManagementConnection] New connection established.
+[02:13:35] [127.0.0.1][0a74b257][ExtensionHostConnection] New connection established.
+[02:13:35] [127.0.0.1][0a74b257][ExtensionHostConnection] <379> Launched Extension Host Process.
+[02:13:35] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /workplace/project/fire)
+[02:13:39] Using the in-memory credential store as the operating system's credential store could not be accessed. Please see https://aka.ms/vscode-server-keyring on how to set this up. Details: libsecret-1.so.0: cannot open shared object file: No such file or directory
+[02:13:39] [File Watcher (node.js)] Failed to watch /root/.conda for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/root/.conda')
+[02:13:39] [File Watcher (node.js)] Failed to watch /workplace/project/fire for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/workplace/project/fire')
+[2023-11-01T02:15:46.106Z] error Failed to get latest version [38;2;140;140;140m{"error":"connect ETIMEDOUT 20.205.243.168:443"}[0m
+[02:25:26] [127.0.0.1][769dbe7e][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[02:25:26] [127.0.0.1][0a74b257][ExtensionHostConnection] <379> Extension Host Process exited with code: 0, signal: null.
+2023/11/01 02:35:27 exit program after timeout

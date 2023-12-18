@@ -1,0 +1,32 @@
+2023/10/31 07:01:30 failed to dial tcp connection, retrying
+2023/10/31 07:01:31 failed to dial tcp connection, retrying
+[2023-10-31T07:01:31.507Z] info  code-server 4.11.0 85e083580dec27ef19827ff42d3c9257d56ea7e3
+[2023-10-31T07:01:31.508Z] info  Using user-data-dir ~/.local/share/code-server
+[2023-10-31T07:01:31.521Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-10-31T07:01:31.521Z] info  HTTP server listening on http://127.0.0.1:8080/
+[2023-10-31T07:01:31.522Z] info    - Authentication is disabled
+[2023-10-31T07:01:31.522Z] info    - Not serving HTTPS
+====================================>token: ab0dfa0a-c318-4a63-8e1b-8021b207ba26
+[07:01:34] 
+
+
+
+
+[07:01:34] Extension host agent started.
+[07:01:36] [127.0.0.1][d9cf1781][ManagementConnection] New connection established.
+[07:01:38] [127.0.0.1][94f03867][ExtensionHostConnection] New connection established.
+[07:01:44] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/codeserver/lib/vscode/out/vs/server/node/server.main.js:94:2559)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+[07:01:44] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/codeserver/lib/vscode/out/vs/server/node/server.main.js:94:2559)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+[07:01:44] [127.0.0.1][94f03867][ExtensionHostConnection] <379> Launched Extension Host Process.
+[07:01:44] [127.0.0.1][94f03867][ExtensionHostConnection] The client has reconnected.
+[07:01:48] Using the in-memory credential store as the operating system's credential store could not be accessed. Please see https://aka.ms/vscode-server-keyring on how to set this up. Details: libsecret-1.so.0: cannot open shared object file: No such file or directory
+[2023-10-31T07:03:49.284Z] error Failed to get latest version [38;2;140;140;140m{"error":"connect ETIMEDOUT 20.205.243.168:443"}[0m
+[11:13:22] [127.0.0.1][d9cf1781][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[11:13:23] [127.0.0.1][94f03867][ExtensionHostConnection] <379> Extension Host Process exited with code: 0, signal: null.
+2023/10/31 11:23:24 exit program after timeout

@@ -1,0 +1,22 @@
+2023/12/01 03:16:42 failed to dial tcp connection, retrying
+2023/12/01 03:16:43 failed to dial tcp connection, retrying
+[2023-12-01T03:16:43.519Z] info  code-server 4.11.0 85e083580dec27ef19827ff42d3c9257d56ea7e3
+[2023-12-01T03:16:43.520Z] info  Using user-data-dir ~/.local/share/code-server
+[2023-12-01T03:16:43.534Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-12-01T03:16:43.534Z] info  HTTP server listening on http://127.0.0.1:8080/
+[2023-12-01T03:16:43.534Z] info    - Authentication is disabled
+[2023-12-01T03:16:43.535Z] info    - Not serving HTTPS
+====================================>token: f6ddb0c3-eb0b-4d3b-b27c-7d4e02dda109
+[03:16:46] 
+
+
+
+
+[03:16:46] Extension host agent started.
+[03:16:47] [127.0.0.1][d7cb3b03][ManagementConnection] New connection established.
+[03:16:48] [127.0.0.1][e9ea4045][ExtensionHostConnection] New connection established.
+[03:16:48] [127.0.0.1][e9ea4045][ExtensionHostConnection] <380> Launched Extension Host Process.
+[03:16:51] [127.0.0.1][d7cb3b03][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[03:16:52] [127.0.0.1][e9ea4045][ExtensionHostConnection] <380> Extension Host Process exited with code: 0, signal: null.
+[2023-12-01T03:18:58.084Z] error Failed to get latest version [38;2;140;140;140m{"error":"connect ETIMEDOUT 20.205.243.168:443"}[0m
+2023/12/01 03:26:53 exit program after timeout

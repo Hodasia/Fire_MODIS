@@ -1,0 +1,28 @@
+2023/10/27 08:45:33 failed to dial tcp connection, retrying
+[2023-10-27T08:45:34.912Z] info  code-server 4.11.0 85e083580dec27ef19827ff42d3c9257d56ea7e3
+[2023-10-27T08:45:34.913Z] info  Using user-data-dir ~/.local/share/code-server
+[2023-10-27T08:45:34.927Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-10-27T08:45:34.927Z] info  HTTP server listening on http://127.0.0.1:8080/
+[2023-10-27T08:45:34.927Z] info    - Authentication is disabled
+[2023-10-27T08:45:34.927Z] info    - Not serving HTTPS
+====================================>token: 14f01d3c-6f4c-4ec7-a552-89932ae8766b
+[08:45:36] 
+
+
+
+
+[08:45:36] Extension host agent started.
+[08:45:38] [127.0.0.1][5b5824ee][ManagementConnection] New connection established.
+[08:45:39] [127.0.0.1][839cbd63][ExtensionHostConnection] New connection established.
+[08:45:39] [127.0.0.1][839cbd63][ExtensionHostConnection] <379> Launched Extension Host Process.
+[08:45:42] Using the in-memory credential store as the operating system's credential store could not be accessed. Please see https://aka.ms/vscode-server-keyring on how to set this up. Details: libsecret-1.so.0: cannot open shared object file: No such file or directory
+[08:45:52] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /opt/conda/lib/python3.8)
+[2023-10-27T08:47:48.406Z] error Failed to get latest version [38;2;140;140;140m{"error":"connect ETIMEDOUT 20.205.243.168:443"}[0m
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0x1 addr=0x28 pc=0x8986f1]
+
+goroutine 289 [running]:
+http_reverse_proxy/client.sendHttpRequestAndReplyHttpResponse(0xc000338e60?, 0xc000338fd0?, 0xc00028a000, 0xc00011c060)
+	/builds/hitminer/http_reverse_proxy/client/http_client.go:51 +0xb1
+created by http_reverse_proxy/client.startHttpClient
+	/builds/hitminer/http_reverse_proxy/client/http_client.go:34 +0x1ea

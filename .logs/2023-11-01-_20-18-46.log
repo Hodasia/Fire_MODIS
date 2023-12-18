@@ -1,0 +1,39 @@
+2023/11/01 12:18:53 failed to dial tcp connection, retrying
+[2023-11-01T12:18:54.336Z] info  code-server 4.11.0 85e083580dec27ef19827ff42d3c9257d56ea7e3
+[2023-11-01T12:18:54.337Z] info  Using user-data-dir ~/.local/share/code-server
+[2023-11-01T12:18:54.350Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-11-01T12:18:54.350Z] info  HTTP server listening on http://127.0.0.1:8080/
+[2023-11-01T12:18:54.350Z] info    - Authentication is disabled
+[2023-11-01T12:18:54.350Z] info    - Not serving HTTPS
+====================================>token: 0b395d2c-851e-435e-8471-b01eb2706ef6
+[12:18:55] 
+
+
+
+
+[12:18:55] Extension host agent started.
+[12:18:57] [127.0.0.1][35955644][ManagementConnection] New connection established.
+[12:18:57] Using the in-memory credential store as the operating system's credential store could not be accessed. Please see https://aka.ms/vscode-server-keyring on how to set this up. Details: libsecret-1.so.0: cannot open shared object file: No such file or directory
+[12:18:58] [127.0.0.1][2c2a944f][ExtensionHostConnection] New connection established.
+[12:18:58] [127.0.0.1][2c2a944f][ExtensionHostConnection] <379> Launched Extension Host Process.
+[12:19:03] Getting Manifest... formulahendry.code-runner
+[2023-11-01T12:21:07.384Z] error Failed to get latest version [38;2;140;140;140m{"error":"connect ETIMEDOUT 20.205.243.168:443"}[0m
+[12:21:26] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /opt/conda/lib/python3.8)
+[12:23:24] Failed to install extension. formulahendry.code-runner
+[12:23:24] Error: connect ETIMEDOUT 198.41.30.195:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1278:16) {
+  errno: -110,
+  code: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '198.41.30.195',
+  port: 443
+}
+[12:26:07] [127.0.0.1][2c2a944f][ExtensionHostConnection] <379> Extension Host Process exited with code: 0, signal: null.
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0x1 addr=0x28 pc=0x8986f1]
+
+goroutine 337 [running]:
+http_reverse_proxy/client.sendHttpRequestAndReplyHttpResponse(0x0?, 0x0?, 0xc000124000, 0xc0001a2780)
+	/builds/hitminer/http_reverse_proxy/client/http_client.go:51 +0xb1
+created by http_reverse_proxy/client.startHttpClient
+	/builds/hitminer/http_reverse_proxy/client/http_client.go:34 +0x1ea

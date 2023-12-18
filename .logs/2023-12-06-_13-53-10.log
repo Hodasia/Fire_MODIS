@@ -1,0 +1,31 @@
+2023/12/06 05:53:14 failed to dial tcp connection, retrying
+[2023-12-06T05:53:15.014Z] info  code-server 4.11.0 85e083580dec27ef19827ff42d3c9257d56ea7e3
+[2023-12-06T05:53:15.015Z] info  Using user-data-dir ~/.local/share/code-server
+====================================>token: e8636d9e-5c02-4130-98d1-e78140606d7d
+[2023-12-06T05:53:15.032Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-12-06T05:53:15.033Z] info  HTTP server listening on http://127.0.0.1:8080/
+[2023-12-06T05:53:15.033Z] info    - Authentication is disabled
+[2023-12-06T05:53:15.033Z] info    - Not serving HTTPS
+[05:53:17] 
+
+
+
+
+[05:53:17] Extension host agent started.
+[05:53:18] [127.0.0.1][86d738f4][ManagementConnection] New connection established.
+[05:53:19] [127.0.0.1][86a23c13][ExtensionHostConnection] New connection established.
+[05:53:19] [127.0.0.1][86a23c13][ExtensionHostConnection] <379> Launched Extension Host Process.
+[05:53:23] Using the in-memory credential store as the operating system's credential store could not be accessed. Please see https://aka.ms/vscode-server-keyring on how to set this up. Details: libsecret-1.so.0: cannot open shared object file: No such file or directory
+[2023-12-06T05:55:30.102Z] error Failed to get latest version [38;2;140;140;140m{"error":"connect ETIMEDOUT 20.205.243.168:443"}[0m
+[05:55:45] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /opt/conda/lib/python3.8)
+[07:45:04] [127.0.0.1][86d738f4][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[07:45:04] [127.0.0.1][86a23c13][ExtensionHostConnection] <379> Extension Host Process exited with code: 0, signal: null.
+[07:45:05] [127.0.0.1][9766bacf][ManagementConnection] New connection established.
+[07:45:06] [127.0.0.1][d79a1ac0][ExtensionHostConnection] New connection established.
+[07:45:06] [127.0.0.1][d79a1ac0][ExtensionHostConnection] <10237> Launched Extension Host Process.
+[07:45:20] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /opt/conda/lib/python3.8)
+[2023-12-06T07:47:17.301Z] error Failed to get latest version [38;2;140;140;140m{"error":"connect ETIMEDOUT 20.205.243.168:443"}[0m
+[2023-12-06T13:47:23.702Z] error Failed to get latest version [38;2;140;140;140m{"error":"connect ETIMEDOUT 20.205.243.168:443"}[0m
+[14:59:17] [127.0.0.1][9766bacf][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[15:04:07] [127.0.0.1][d79a1ac0][ExtensionHostConnection] <10237> Extension Host Process exited with code: 0, signal: null.
+2023/12/06 15:09:19 exit program after timeout

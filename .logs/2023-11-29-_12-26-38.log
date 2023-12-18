@@ -1,0 +1,24 @@
+2023/11/29 04:26:44 failed to dial tcp connection, retrying
+[2023-11-29T04:26:45.310Z] info  code-server 4.11.0 85e083580dec27ef19827ff42d3c9257d56ea7e3
+[2023-11-29T04:26:45.311Z] info  Using user-data-dir ~/.local/share/code-server
+====================================>token: 980ec00d-e988-4581-8bbe-e9dd5120dc61
+[2023-11-29T04:26:45.324Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-11-29T04:26:45.325Z] info  HTTP server listening on http://127.0.0.1:8080/
+[2023-11-29T04:26:45.325Z] info    - Authentication is disabled
+[2023-11-29T04:26:45.325Z] info    - Not serving HTTPS
+[04:26:49] 
+
+
+
+
+[04:26:49] Extension host agent started.
+[04:26:51] [127.0.0.1][50ead110][ManagementConnection] New connection established.
+[04:26:51] [127.0.0.1][d40881c2][ExtensionHostConnection] New connection established.
+[04:26:51] [127.0.0.1][d40881c2][ExtensionHostConnection] <379> Launched Extension Host Process.
+[04:26:58] Using the in-memory credential store as the operating system's credential store could not be accessed. Please see https://aka.ms/vscode-server-keyring on how to set this up. Details: libsecret-1.so.0: cannot open shared object file: No such file or directory
+[04:27:11] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /opt/conda/lib/python3.8)
+[04:27:40] [File Watcher (node.js)] Failed to watch /workplace/project/fire/classification/pr_curve.png for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/workplace/project/fire/classification/pr_curve.png')
+[2023-11-29T04:29:01.494Z] error Failed to get latest version [38;2;140;140;140m{"error":"connect ETIMEDOUT 20.205.243.168:443"}[0m
+[04:35:57] [127.0.0.1][50ead110][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[04:35:57] [127.0.0.1][d40881c2][ExtensionHostConnection] <379> Extension Host Process exited with code: 0, signal: null.
+2023/11/29 04:45:59 exit program after timeout

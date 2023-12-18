@@ -1,0 +1,24 @@
+2023/12/14 00:36:17 failed to dial tcp connection, retrying
+[2023-12-14T00:36:18.359Z] info  code-server 4.11.0 85e083580dec27ef19827ff42d3c9257d56ea7e3
+[2023-12-14T00:36:18.360Z] info  Using user-data-dir ~/.local/share/code-server
+2023/12/14 00:36:18 failed to dial tcp connection, retrying
+[2023-12-14T00:36:18.380Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-12-14T00:36:18.380Z] info  HTTP server listening on http://127.0.0.1:8080/
+[2023-12-14T00:36:18.380Z] info    - Authentication is disabled
+[2023-12-14T00:36:18.380Z] info    - Not serving HTTPS
+====================================>token: b796b9c1-66c4-4c14-aaf0-971232ba70d0
+[00:36:20] 
+
+
+
+
+[00:36:21] Extension host agent started.
+[00:36:22] [127.0.0.1][382a3ec9][ManagementConnection] New connection established.
+[00:36:23] [127.0.0.1][633d004d][ExtensionHostConnection] New connection established.
+[00:36:23] [127.0.0.1][633d004d][ExtensionHostConnection] <379> Launched Extension Host Process.
+[00:36:27] Using the in-memory credential store as the operating system's credential store could not be accessed. Please see https://aka.ms/vscode-server-keyring on how to set this up. Details: libsecret-1.so.0: cannot open shared object file: No such file or directory
+[00:36:40] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /opt/conda/lib/python3.8)
+[02:12:15] [File Watcher (node.js)] Failed to watch /workplace/project/fire/classification/thrd_img/resnet50_80_1.png for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/workplace/project/fire/classification/thrd_img/resnet50_80_1.png')
+[03:00:32] [127.0.0.1][382a3ec9][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[03:00:32] [127.0.0.1][633d004d][ExtensionHostConnection] <379> Extension Host Process exited with code: 0, signal: null.
+2023/12/14 03:10:33 exit program after timeout

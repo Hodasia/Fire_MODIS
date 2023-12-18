@@ -1,0 +1,22 @@
+2023/12/11 11:47:44 failed to dial tcp connection, retrying
+2023/12/11 11:47:45 failed to dial tcp connection, retrying
+[2023-12-11T11:47:45.382Z] info  code-server 4.11.0 85e083580dec27ef19827ff42d3c9257d56ea7e3
+[2023-12-11T11:47:45.384Z] info  Using user-data-dir ~/.local/share/code-server
+[2023-12-11T11:47:45.399Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-12-11T11:47:45.399Z] info  HTTP server listening on http://127.0.0.1:8080/
+[2023-12-11T11:47:45.399Z] info    - Authentication is disabled
+[2023-12-11T11:47:45.399Z] info    - Not serving HTTPS
+====================================>token: 3c2c41d5-66d6-4e7d-ba0c-1c732a829b63
+[11:47:47] 
+
+
+
+
+[11:47:47] Extension host agent started.
+[11:47:49] [127.0.0.1][ae9bec01][ManagementConnection] New connection established.
+[11:47:50] [127.0.0.1][ad775658][ExtensionHostConnection] New connection established.
+[11:47:50] [127.0.0.1][ad775658][ExtensionHostConnection] <379> Launched Extension Host Process.
+[11:47:51] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /workplace/project/fire)
+[11:47:55] Using the in-memory credential store as the operating system's credential store could not be accessed. Please see https://aka.ms/vscode-server-keyring on how to set this up. Details: libsecret-1.so.0: cannot open shared object file: No such file or directory
+[12:52:46] [File Watcher (node.js)] Failed to watch /root/.local/share/code-server/User/snippets for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/root/.local/share/code-server/User/snippets')
+2023/12/11 13:02:58 failed to receive message reply from grpc server: rpc error: code = Unavailable desc = error reading from server: EOF

@@ -1,0 +1,32 @@
+2023/11/04 06:35:52 failed to dial tcp connection, retrying
+[2023-11-04T06:35:53.377Z] info  code-server 4.11.0 85e083580dec27ef19827ff42d3c9257d56ea7e3
+[2023-11-04T06:35:53.378Z] info  Using user-data-dir ~/.local/share/code-server
+====================================>token: 8f8c5030-e6d0-45f6-8f5f-2fbf981440c3
+[2023-11-04T06:35:53.394Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-11-04T06:35:53.394Z] info  HTTP server listening on http://127.0.0.1:8080/
+[2023-11-04T06:35:53.394Z] info    - Authentication is disabled
+[2023-11-04T06:35:53.394Z] info    - Not serving HTTPS
+[06:35:55] 
+
+
+
+
+[06:35:55] Extension host agent started.
+[06:35:57] [127.0.0.1][61b120cb][ManagementConnection] New connection established.
+[06:35:57] [127.0.0.1][4a97f9c0][ExtensionHostConnection] New connection established.
+[06:35:57] [127.0.0.1][4a97f9c0][ExtensionHostConnection] <378> Launched Extension Host Process.
+[06:36:01] Using the in-memory credential store as the operating system's credential store could not be accessed. Please see https://aka.ms/vscode-server-keyring on how to set this up. Details: libsecret-1.so.0: cannot open shared object file: No such file or directory
+[2023-11-04T06:38:08.054Z] error Failed to get latest version [38;2;140;140;140m{"error":"connect ETIMEDOUT 20.205.243.168:443"}[0m
+[06:38:12] [File Watcher (node.js)] Failed to watch /root/.conda for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/root/.conda')
+[06:38:12] [File Watcher (node.js)] Failed to watch /workplace/project/fire for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/workplace/project/fire')
+[06:38:22] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /opt/conda/lib/python3.8)
+[07:20:21] [127.0.0.1][61b120cb][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[07:20:21] [127.0.0.1][4a97f9c0][ExtensionHostConnection] <378> Extension Host Process exited with code: 0, signal: null.
+[07:20:23] [127.0.0.1][2da01676][ManagementConnection] New connection established.
+[07:20:23] [127.0.0.1][e519daf6][ExtensionHostConnection] New connection established.
+[07:20:23] [127.0.0.1][e519daf6][ExtensionHostConnection] <4424> Launched Extension Host Process.
+[07:20:25] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /workplace/project/fire)
+[2023-11-04T07:22:34.550Z] error Failed to get latest version [38;2;140;140;140m{"error":"connect ETIMEDOUT 20.205.243.168:443"}[0m
+[09:13:36] [127.0.0.1][2da01676][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[09:13:36] [127.0.0.1][e519daf6][ExtensionHostConnection] <4424> Extension Host Process exited with code: 0, signal: null.
+2023/11/04 09:23:38 exit program after timeout

@@ -1,0 +1,22 @@
+{
+    "working_dir": "project/fire",
+    "require_cpu_core": 4,
+    "require_gpu_num": 1,
+    "require_mem": 16,
+    "require_shm": 8,
+    "cmd": "python classification/test.py",
+    "cache_path": "",
+    "selectedGpus": [
+        [
+            "ices14",
+            "GPU-f6533b3b-44e2-5263-7bb4-600eea7dbb22"
+        ]
+    ],
+    "selectedImage": [
+        "customImage",
+        "10.249.176.128:8084/custom_image/4e2a6d9c5a2e3c75eade3e40cfe55d27/image_trans:v1"
+    ],
+    "take_snapshot": true,
+    "allow_multi_node_allocation": false,
+    "task_description": "resnet_80_3, test"
+}

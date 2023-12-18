@@ -1,0 +1,28 @@
+2023/11/26 12:43:23 failed to dial tcp connection, retrying
+[2023-11-26T12:43:23.999Z] info  code-server 4.11.0 85e083580dec27ef19827ff42d3c9257d56ea7e3
+[2023-11-26T12:43:24.000Z] info  Using user-data-dir ~/.local/share/code-server
+====================================>token: 19fdcf02-425a-4812-b6cb-4107d0266b15
+[2023-11-26T12:43:24.018Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-11-26T12:43:24.018Z] info  HTTP server listening on http://127.0.0.1:8080/
+[2023-11-26T12:43:24.018Z] info    - Authentication is disabled
+[2023-11-26T12:43:24.018Z] info    - Not serving HTTPS
+[12:43:26] 
+
+
+
+
+[12:43:26] Extension host agent started.
+[12:43:28] [127.0.0.1][7b6b7452][ManagementConnection] New connection established.
+[12:43:28] [127.0.0.1][bab41fde][ExtensionHostConnection] New connection established.
+[12:43:28] [127.0.0.1][bab41fde][ExtensionHostConnection] <378> Launched Extension Host Process.
+[12:43:32] Using the in-memory credential store as the operating system's credential store could not be accessed. Please see https://aka.ms/vscode-server-keyring on how to set this up. Details: libsecret-1.so.0: cannot open shared object file: No such file or directory
+[12:43:42] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /opt/conda/lib/python3.8)
+[2023-11-26T12:45:38.871Z] error Failed to get latest version [38;2;140;140;140m{"error":"connect ETIMEDOUT 20.205.243.168:443"}[0m
+[14:23:38] [File Watcher (node.js)] Failed to watch /root/.local/share/code-server/extensions/ms-python.vscode-pylance-2023.4.21/dist/typeshed-fallback/stdlib/builtins.pyi for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/root/.local/share/code-server/extensions/ms-python.vscode-pylance-2023.4.21/dist/typeshed-fallback/stdlib/builtins.pyi')
+[15:00:16] [127.0.0.1][7b6b7452][ManagementConnection] The client has reconnected.
+[15:00:16] [127.0.0.1][bab41fde][ExtensionHostConnection] The client has reconnected.
+[15:01:30] [127.0.0.1][7b6b7452][ManagementConnection] The client has reconnected.
+[15:01:34] [127.0.0.1][bab41fde][ExtensionHostConnection] The client has reconnected.
+[15:13:44] [127.0.0.1][7b6b7452][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[15:13:44] [127.0.0.1][bab41fde][ExtensionHostConnection] <378> Extension Host Process exited with code: 0, signal: null.
+2023/11/26 15:23:46 exit program after timeout

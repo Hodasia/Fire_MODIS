@@ -1,0 +1,28 @@
+2023/12/11 02:02:47 failed to dial tcp connection, retrying
+[2023-12-11T02:02:48.735Z] info  code-server 4.11.0 85e083580dec27ef19827ff42d3c9257d56ea7e3
+[2023-12-11T02:02:48.736Z] info  Using user-data-dir ~/.local/share/code-server
+[2023-12-11T02:02:48.754Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-12-11T02:02:48.754Z] info  HTTP server listening on http://127.0.0.1:8080/
+[2023-12-11T02:02:48.754Z] info    - Authentication is disabled
+[2023-12-11T02:02:48.754Z] info    - Not serving HTTPS
+====================================>token: 6bf515ea-ed08-418f-9f78-63524821f5e9
+[02:02:50] 
+
+
+
+
+[02:02:50] Extension host agent started.
+[02:02:50] [File Watcher (node.js)] Failed to watch /root/.local/share/code-server/Machine for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/root/.local/share/code-server/Machine')
+[02:02:50] [File Watcher (node.js)] Failed to watch /root/.local/share/code-server/extensions for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/root/.local/share/code-server/extensions')
+[02:02:50] [File Watcher (node.js)] Failed to watch /root/.local/share/code-server/extensions/extensions.json for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/root/.local/share/code-server/extensions/extensions.json')
+[02:02:52] [127.0.0.1][2b250068][ManagementConnection] New connection established.
+[02:02:52] [File Watcher (node.js)] Failed to watch /root/.local/share/code-server/User for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/root/.local/share/code-server/User')
+[02:02:52] [File Watcher (node.js)] Failed to watch /root/.local/share/code-server/Machine for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/root/.local/share/code-server/Machine')
+[02:02:53] [127.0.0.1][4c30d59f][ExtensionHostConnection] New connection established.
+[02:02:53] [127.0.0.1][4c30d59f][ExtensionHostConnection] <380> Launched Extension Host Process.
+[02:02:53] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /workplace/project/fire)
+[02:02:54] [File Watcher (node.js)] Failed to watch /root/.local/share/code-server/User/snippets for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/root/.local/share/code-server/User/snippets')
+[02:02:56] Using the in-memory credential store as the operating system's credential store could not be accessed. Please see https://aka.ms/vscode-server-keyring on how to set this up. Details: libsecret-1.so.0: cannot open shared object file: No such file or directory
+[02:02:56] [File Watcher (node.js)] Failed to watch /root/.conda for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/root/.conda')
+[02:02:56] [File Watcher (node.js)] Failed to watch /workplace/project/fire for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/workplace/project/fire')
+2023/12/11 03:52:50 exit program after timeout

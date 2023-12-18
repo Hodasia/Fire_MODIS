@@ -1,0 +1,30 @@
+2023/11/01 01:41:12 failed to dial tcp connection, retrying
+[2023-11-01T01:41:13.728Z] info  code-server 4.11.0 85e083580dec27ef19827ff42d3c9257d56ea7e3
+[2023-11-01T01:41:13.729Z] info  Using user-data-dir ~/.local/share/code-server
+[2023-11-01T01:41:13.743Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-11-01T01:41:13.743Z] info  HTTP server listening on http://127.0.0.1:8080/
+[2023-11-01T01:41:13.743Z] info    - Authentication is disabled
+[2023-11-01T01:41:13.743Z] info    - Not serving HTTPS
+====================================>token: 1acf7640-d151-4f54-a3ab-17e3dfb4914a
+[01:41:15] 
+
+
+
+
+[01:41:15] Extension host agent started.
+[01:41:17] [127.0.0.1][91243146][ManagementConnection] New connection established.
+[01:41:18] [127.0.0.1][01185a04][ExtensionHostConnection] New connection established.
+[01:41:18] [127.0.0.1][01185a04][ExtensionHostConnection] <377> Launched Extension Host Process.
+[01:41:18] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /workplace/project/fire)
+[01:41:22] Using the in-memory credential store as the operating system's credential store could not be accessed. Please see https://aka.ms/vscode-server-keyring on how to set this up. Details: libsecret-1.so.0: cannot open shared object file: No such file or directory
+[2023-11-01T01:43:28.694Z] error Failed to get latest version [38;2;140;140;140m{"error":"connect ETIMEDOUT 20.205.243.168:443"}[0m
+[01:43:32] [File Watcher (node.js)] Failed to watch /workplace/project/fire for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/workplace/project/fire')
+[02:09:19] [127.0.0.1][01185a04][ExtensionHostConnection] <377> Extension Host Process exited with code: 0, signal: null.
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0x1 addr=0x28 pc=0x8986f1]
+
+goroutine 60 [running]:
+http_reverse_proxy/client.sendHttpRequestAndReplyHttpResponse(0x0?, 0x0?, 0xc0000d0160, 0xc00011c060)
+	/builds/hitminer/http_reverse_proxy/client/http_client.go:51 +0xb1
+created by http_reverse_proxy/client.startHttpClient
+	/builds/hitminer/http_reverse_proxy/client/http_client.go:34 +0x1ea

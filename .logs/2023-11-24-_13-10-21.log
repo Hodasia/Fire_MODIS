@@ -1,0 +1,24 @@
+2023/11/24 05:10:35 failed to dial tcp connection, retrying
+2023/11/24 05:10:36 failed to dial tcp connection, retrying
+[2023-11-24T05:10:36.009Z] info  code-server 4.11.0 85e083580dec27ef19827ff42d3c9257d56ea7e3
+[2023-11-24T05:10:36.010Z] info  Using user-data-dir ~/.local/share/code-server
+[2023-11-24T05:10:36.024Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-11-24T05:10:36.024Z] info  HTTP server listening on http://127.0.0.1:8080/
+[2023-11-24T05:10:36.024Z] info    - Authentication is disabled
+[2023-11-24T05:10:36.024Z] info    - Not serving HTTPS
+====================================>token: e75e9bb7-ebf6-4846-990e-563066aea976
+[05:10:39] 
+
+
+
+
+[05:10:39] Extension host agent started.
+[05:10:40] [127.0.0.1][d95cb17a][ManagementConnection] New connection established.
+[05:10:41] [127.0.0.1][00325e80][ExtensionHostConnection] New connection established.
+[05:10:41] [127.0.0.1][00325e80][ExtensionHostConnection] <377> Launched Extension Host Process.
+[05:10:44] Using the in-memory credential store as the operating system's credential store could not be accessed. Please see https://aka.ms/vscode-server-keyring on how to set this up. Details: libsecret-1.so.0: cannot open shared object file: No such file or directory
+[05:10:55] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /opt/conda/lib/python3.8)
+[2023-11-24T05:12:52.155Z] error Failed to get latest version [38;2;140;140;140m{"error":"connect ETIMEDOUT 20.205.243.168:443"}[0m
+[08:40:53] [127.0.0.1][d95cb17a][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[08:40:54] [127.0.0.1][00325e80][ExtensionHostConnection] <377> Extension Host Process exited with code: 0, signal: null.
+2023/11/24 08:50:56 exit program after timeout

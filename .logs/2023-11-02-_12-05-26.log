@@ -1,0 +1,31 @@
+2023/11/02 04:05:34 failed to dial tcp connection, retrying
+[2023-11-02T04:05:35.048Z] info  code-server 4.11.0 85e083580dec27ef19827ff42d3c9257d56ea7e3
+[2023-11-02T04:05:35.049Z] info  Using user-data-dir ~/.local/share/code-server
+[2023-11-02T04:05:35.062Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-11-02T04:05:35.062Z] info  HTTP server listening on http://127.0.0.1:8080/
+[2023-11-02T04:05:35.062Z] info    - Authentication is disabled
+[2023-11-02T04:05:35.062Z] info    - Not serving HTTPS
+====================================>token: 2bffa4c2-1764-4da3-81ea-2f757a1e2642
+[04:05:37] 
+
+
+
+
+[04:05:37] Extension host agent started.
+[04:05:39] [127.0.0.1][bc4c78e1][ManagementConnection] New connection established.
+[04:05:39] [127.0.0.1][17e591cd][ExtensionHostConnection] New connection established.
+[04:05:39] [127.0.0.1][17e591cd][ExtensionHostConnection] <379> Launched Extension Host Process.
+[04:05:45] Getting Manifest... formulahendry.code-runner
+[04:05:46] [127.0.0.1][bc4c78e1][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[04:05:46] [127.0.0.1][17e591cd][ExtensionHostConnection] <379> Extension Host Process exited with code: 0, signal: null.
+[2023-11-02T04:07:49.799Z] error Failed to get latest version [38;2;140;140;140m{"error":"connect ETIMEDOUT 20.205.243.168:443"}[0m
+[04:10:07] Failed to install extension. formulahendry.code-runner
+[04:10:07] Error: connect ETIMEDOUT 198.41.30.195:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1278:16) {
+  errno: -110,
+  code: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '198.41.30.195',
+  port: 443
+}
+2023/11/02 04:15:48 exit program after timeout

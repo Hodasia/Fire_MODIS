@@ -1,0 +1,5 @@
+/copy/
+/ResNet/
+/wandb/
+run.sh
+SRUN_LOGIN_linux_amd64

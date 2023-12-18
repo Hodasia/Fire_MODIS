@@ -1,0 +1,26 @@
+2023/12/07 05:59:22 failed to dial tcp connection, retrying
+[2023-12-07T05:59:23.426Z] info  code-server 4.11.0 85e083580dec27ef19827ff42d3c9257d56ea7e3
+[2023-12-07T05:59:23.427Z] info  Using user-data-dir ~/.local/share/code-server
+[2023-12-07T05:59:23.441Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-12-07T05:59:23.441Z] info  HTTP server listening on http://127.0.0.1:8080/
+[2023-12-07T05:59:23.441Z] info    - Authentication is disabled
+[2023-12-07T05:59:23.441Z] info    - Not serving HTTPS
+====================================>token: c577b2c9-e02a-462c-9973-769333479a3a
+[05:59:25] 
+
+
+
+
+[05:59:25] Extension host agent started.
+[05:59:27] [127.0.0.1][00cbb16f][ManagementConnection] New connection established.
+[05:59:28] [127.0.0.1][fac93685][ExtensionHostConnection] New connection established.
+[05:59:28] [127.0.0.1][fac93685][ExtensionHostConnection] <379> Launched Extension Host Process.
+[05:59:28] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /workplace/project/fire)
+[05:59:32] Using the in-memory credential store as the operating system's credential store could not be accessed. Please see https://aka.ms/vscode-server-keyring on how to set this up. Details: libsecret-1.so.0: cannot open shared object file: No such file or directory
+[05:59:32] [File Watcher (node.js)] Failed to watch /root/.conda for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/root/.conda')
+[05:59:32] [File Watcher (node.js)] Failed to watch /workplace/project/fire for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/workplace/project/fire')
+[06:29:36] [127.0.0.1][fac93685][ExtensionHostConnection] <379> Starting WebSocket: RAW/api/kernels/ebc0fc8a-9863-4449-9c7c-be8abef5822f
+
+[08:55:44] [127.0.0.1][00cbb16f][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[08:55:45] [127.0.0.1][fac93685][ExtensionHostConnection] <379> Extension Host Process exited with code: 0, signal: null.
+2023/12/07 09:05:46 exit program after timeout

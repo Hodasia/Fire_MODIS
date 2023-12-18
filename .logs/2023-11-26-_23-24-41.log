@@ -1,0 +1,33 @@
+2023/11/26 15:24:47 failed to dial tcp connection, retrying
+2023/11/26 15:24:48 failed to dial tcp connection, retrying
+[2023-11-26T15:24:48.207Z] info  code-server 4.11.0 85e083580dec27ef19827ff42d3c9257d56ea7e3
+[2023-11-26T15:24:48.209Z] info  Using user-data-dir ~/.local/share/code-server
+[2023-11-26T15:24:48.221Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-11-26T15:24:48.222Z] info  HTTP server listening on http://127.0.0.1:8080/
+[2023-11-26T15:24:48.222Z] info    - Authentication is disabled
+[2023-11-26T15:24:48.222Z] info    - Not serving HTTPS
+====================================>token: 6836a7dc-394a-484b-9ca8-dc34b03fe8d0
+[15:24:51] 
+
+
+
+
+[15:24:51] Extension host agent started.
+[15:24:53] [127.0.0.1][3151e730][ManagementConnection] New connection established.
+[15:24:53] Using the in-memory credential store as the operating system's credential store could not be accessed. Please see https://aka.ms/vscode-server-keyring on how to set this up. Details: libsecret-1.so.0: cannot open shared object file: No such file or directory
+[15:24:54] [127.0.0.1][81266b1a][ExtensionHostConnection] New connection established.
+[15:24:54] [127.0.0.1][81266b1a][ExtensionHostConnection] <383> Launched Extension Host Process.
+[15:25:00] Getting Manifest... formulahendry.code-runner
+[15:27:00] [127.0.0.1][3151e730][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[15:27:00] [127.0.0.1][81266b1a][ExtensionHostConnection] <383> Extension Host Process exited with code: 0, signal: null.
+[2023-11-26T15:27:03.864Z] error Failed to get latest version [38;2;140;140;140m{"error":"connect ETIMEDOUT 20.205.243.168:443"}[0m
+[15:29:23] Failed to install extension. formulahendry.code-runner
+[15:29:23] Error: connect ETIMEDOUT 198.41.30.195:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1278:16) {
+  errno: -110,
+  code: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '198.41.30.195',
+  port: 443
+}
+2023/11/26 15:37:02 exit program after timeout

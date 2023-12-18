@@ -1,0 +1,41 @@
+2023/11/26 15:15:50 failed to dial tcp connection, retrying
+2023/11/26 15:15:51 failed to dial tcp connection, retrying
+[2023-11-26T15:15:51.582Z] info  code-server 4.11.0 85e083580dec27ef19827ff42d3c9257d56ea7e3
+[2023-11-26T15:15:51.583Z] info  Using user-data-dir ~/.local/share/code-server
+[2023-11-26T15:15:51.598Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-11-26T15:15:51.598Z] info  HTTP server listening on http://127.0.0.1:8080/
+[2023-11-26T15:15:51.598Z] info    - Authentication is disabled
+[2023-11-26T15:15:51.598Z] info    - Not serving HTTPS
+====================================>token: 33827e8c-959d-4986-b02f-40eafcdbff6d
+[15:15:54] 
+
+
+
+
+[15:15:54] Extension host agent started.
+[15:15:55] [127.0.0.1][aa4218cf][ManagementConnection] New connection established.
+[15:15:56] Using the in-memory credential store as the operating system's credential store could not be accessed. Please see https://aka.ms/vscode-server-keyring on how to set this up. Details: libsecret-1.so.0: cannot open shared object file: No such file or directory
+[15:15:56] [127.0.0.1][41a7bc85][ExtensionHostConnection] New connection established.
+[15:15:56] [127.0.0.1][41a7bc85][ExtensionHostConnection] <388> Launched Extension Host Process.
+[15:16:04] Getting Manifest... formulahendry.code-runner
+[2023-11-26T15:18:07.286Z] error Failed to get latest version [38;2;140;140;140m{"error":"connect ETIMEDOUT 20.205.243.168:443"}[0m
+[15:18:33] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /opt/conda/lib/python3.8)
+[15:20:26] Failed to install extension. formulahendry.code-runner
+[15:20:26] Error: connect ETIMEDOUT 198.41.30.195:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1278:16) {
+  errno: -110,
+  code: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '198.41.30.195',
+  port: 443
+}
+[15:21:46] [127.0.0.1][aa4218cf][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[15:21:46] [127.0.0.1][41a7bc85][ExtensionHostConnection] <388> Extension Host Process exited with code: 0, signal: null.
+[15:21:48] [127.0.0.1][15c467bf][ManagementConnection] New connection established.
+[15:21:48] [127.0.0.1][6fb0561c][ExtensionHostConnection] New connection established.
+[15:21:48] [127.0.0.1][6fb0561c][ExtensionHostConnection] <1152> Launched Extension Host Process.
+[15:22:01] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /opt/conda/lib/python3.8)
+[2023-11-26T15:23:59.542Z] error Failed to get latest version [38;2;140;140;140m{"error":"connect ETIMEDOUT 20.205.243.168:443"}[0m
+[15:24:26] [127.0.0.1][15c467bf][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[15:24:26] [127.0.0.1][6fb0561c][ExtensionHostConnection] <1152> Extension Host Process exited with code: 0, signal: null.
+2023/11/26 15:34:27 exit program after timeout

@@ -1,0 +1,34 @@
+2023/11/30 02:29:21 failed to dial tcp connection, retrying
+2023/11/30 02:29:22 failed to dial tcp connection, retrying
+[2023-11-30T02:29:22.361Z] info  code-server 4.11.0 85e083580dec27ef19827ff42d3c9257d56ea7e3
+[2023-11-30T02:29:22.362Z] info  Using user-data-dir ~/.local/share/code-server
+[2023-11-30T02:29:22.380Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-11-30T02:29:22.381Z] info  HTTP server listening on http://127.0.0.1:8080/
+[2023-11-30T02:29:22.381Z] info    - Authentication is disabled
+[2023-11-30T02:29:22.381Z] info    - Not serving HTTPS
+====================================>token: 5c031fc2-7f30-481e-8fe0-99f16342590f
+[02:29:25] 
+
+
+
+
+[02:29:25] Extension host agent started.
+[02:29:25] [File Watcher (node.js)] Failed to watch /root/.local/share/code-server/Machine for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/root/.local/share/code-server/Machine')
+[02:29:25] [File Watcher (node.js)] Failed to watch /root/.local/share/code-server/extensions for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/root/.local/share/code-server/extensions')
+[02:29:25] [File Watcher (node.js)] Failed to watch /root/.local/share/code-server/extensions/extensions.json for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/root/.local/share/code-server/extensions/extensions.json')
+[02:29:27] [127.0.0.1][cc6ba9a0][ManagementConnection] New connection established.
+[02:29:27] [File Watcher (node.js)] Failed to watch /root/.local/share/code-server/User for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/root/.local/share/code-server/User')
+[02:29:27] [File Watcher (node.js)] Failed to watch /root/.local/share/code-server/Machine for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/root/.local/share/code-server/Machine')
+[02:29:27] [127.0.0.1][469f5488][ExtensionHostConnection] New connection established.
+[02:29:27] [127.0.0.1][469f5488][ExtensionHostConnection] <379> Launched Extension Host Process.
+[02:29:28] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /workplace/project/fire)
+[02:29:28] [File Watcher (node.js)] Failed to watch /root/.local/share/code-server/User/snippets for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/root/.local/share/code-server/User/snippets')
+[02:29:31] Using the in-memory credential store as the operating system's credential store could not be accessed. Please see https://aka.ms/vscode-server-keyring on how to set this up. Details: libsecret-1.so.0: cannot open shared object file: No such file or directory
+[02:29:31] [File Watcher (node.js)] Failed to watch /root/.conda for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/root/.conda')
+[02:29:31] [File Watcher (node.js)] Failed to watch /workplace/project/fire for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/workplace/project/fire')
+[2023-11-30T02:31:37.399Z] error Failed to get latest version [38;2;140;140;140m{"error":"connect ETIMEDOUT 20.205.243.168:443"}[0m
+[02:32:53] [File Watcher (node.js)] Failed to watch /workplace/project/fire/classification/pr_curve.png for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/workplace/project/fire/classification/pr_curve.png')
+[02:49:27] [File Watcher (node.js)] Failed to watch /workplace/project/fire/classification/pr_curve.png for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/workplace/project/fire/classification/pr_curve.png')
+[03:02:55] [127.0.0.1][cc6ba9a0][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[03:02:56] [127.0.0.1][469f5488][ExtensionHostConnection] <379> Extension Host Process exited with code: 0, signal: null.
+2023/11/30 03:12:57 exit program after timeout
